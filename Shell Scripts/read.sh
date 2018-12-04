@@ -1,5 +1,5 @@
 #! /bin/bash
 
 echo "Enter name: "
-read name
-echo "Enterd name: $name"
+read name1 name2 name3
+echo "Enterd name: $name1 $name2 $nqame3"
