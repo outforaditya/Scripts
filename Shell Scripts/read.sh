@@ -16,3 +16,9 @@ echo
 echo "username: $user_val"
 echo "password: $pass_val"
 
+
+# Read –a:- array, assign the words read to sequential indices of the array variable ARRAY, starting at zero.
+
+echo "Enter names: "
+read -a names
+echo "names: ${names[0]}, ${names[1]}"
